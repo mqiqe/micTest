@@ -6,9 +6,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <description>mavenTop</description>
-  <modules>
-    <module>mqiqe-eureka</module>
-  </modules>
+
   <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -121,4 +119,7 @@
             </roles>
         </developer>
     </developers>
+  <modules>
+    <module>mqiqe-top-eureka</module>
+  </modules>
 </project>
