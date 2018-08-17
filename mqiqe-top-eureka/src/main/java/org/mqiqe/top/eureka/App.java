@@ -1,13 +1,17 @@
 package org.mqiqe.top.eureka;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
 /**
  * Hello world!
  *
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-    }
+@EnableEurekaServer
+@SpringBootApplication
+public class App {
+	public static void main(String[] args) {
+		SpringApplication.run(App.class, args);
+	}
 }
